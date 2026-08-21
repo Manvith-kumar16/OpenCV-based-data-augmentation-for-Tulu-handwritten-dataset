@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "train_ratio": 0.8,
+  "val_ratio": 0.1,
+  "test_ratio": 0.1,
+  "total_train": 3970,
+  "total_val": 499,
+  "total_test": 499,
+  "grand_total": 4968,
+  "leakage_found": false,
+  "split_dir": "/home/manvith/Desktop/Projects/Tulu Dataset/dataset_split"
+}

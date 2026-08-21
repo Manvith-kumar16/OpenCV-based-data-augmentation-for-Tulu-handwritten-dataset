@@ -1,0 +1,82 @@
+======================================================================
+  TULU KALPUGA — AUGMENTATION REPORT
+  Generated: 2026-08-21 00:27:18
+======================================================================
+
+  Augmentation applied ONLY to: dataset_split/train_original/
+  Validation set              : NOT augmented (verified)
+  Test set                    : NOT augmented (verified)
+
+  Augmentation parameters (IEEE paper):
+    Rotation  : θ ~ Uniform(-15.0°, 15.0°)
+    Scaling   : s ~ Uniform(0.9, 1.1)
+    Noise     : n ~ N(0, σ²), σ = 10.0
+               I' = clip(float32(I) + n, 0, 255)
+    Blur      : Gaussian 3×3 kernel
+    SEED      : 42
+
+  Gaussian Noise Implementation Note:
+    Addition performed in float32 space before quantizing to uint8.
+    This correctly handles negative noise values (pixel darkening)
+    without uint8 wrap-around artifacts.
+
+  Total images generated     : 26030
+  Total train (augmented)    : 30079
+  Expected (50 × 600)        : 30000
+  Total check                : FAIL
+
+  Validation set after aug   : 499 files (OK)
+  Test set after aug         : 499 files (OK)
+
+  Per-class augmented training counts:
+  Class           Count
+  a                 600
+  aa                600
+  ae                600
+  aee               600
+  aha               600
+  am                600
+  ba                600
+  bha               600
+  cha               600
+  chha              600
+  da                600
+  dda               600
+  dha               600
+  dhha              600
+  e                 600
+  ee                600
+  ga                600
+  gha               600
+  ha                600
+  i                 600
+  ja                600
+  jha               600
+  ka                600
+  kha               600
+  la                600
+  lla               600
+  ma                600
+  na                600
+  nna               600
+  nya               600
+  nza               600
+  o                 600
+  oo                600
+  ou                600
+  pa                600
+  pha               600
+  ra                600
+  ru                600
+  ruu               600
+  sa                600
+  sha               600
+  shha              600
+  ta                600
+  tha               600
+  thha              600
+  tta               679
+  u                 600
+  uu                600
+  va                600
+  ya                600

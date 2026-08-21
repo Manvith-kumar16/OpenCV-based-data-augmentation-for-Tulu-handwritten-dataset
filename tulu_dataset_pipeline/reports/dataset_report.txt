@@ -1,0 +1,182 @@
+======================================================================
+  TULU KALPUGA — DATASET PREPARATION REPORT
+  IEEE Research Paper: Camera-Ready Revision
+  Generated: 2026-08-20 21:21:28
+======================================================================
+
+1. PROJECT OVERVIEW
+──────────────────────────────────────────────────
+  Paper: Tulu Kalpuga: An AI-Driven Web Platform for Learning and
+         Handwritten Recognition of Tulu Lipi Script
+  Task : Handwritten Tulu Lipi character classification (50 classes)
+  Model: 4-layer CNN, 64×64×3 input, Softmax output (50 classes)
+
+2. ORIGINAL DATASET SOURCES
+──────────────────────────────────────────────────
+  Source 1: Tulu-Dtatset-V2
+    Valid images    : 4979
+    Classes         : 50
+    Min per class   : 89
+    Max per class   : 100
+    Mean per class  : 99.58
+    Corrupted       : 0
+
+  Source 2: tulu-dataset
+    Valid images    : 4980
+    Classes         : 50
+    Min per class   : 89
+    Max per class   : 100
+    Mean per class  : 99.60
+    Corrupted       : 0
+
+3. DUPLICATE ANALYSIS
+──────────────────────────────────────────────────
+  Total images examined       : 9959
+  Exact duplicate groups      : 4967
+  Exact duplicate count       : 4991
+  Duplicate percentage        : 50.12%
+  Cross-dataset dup groups    : 4967
+  Near-duplicate pairs (pHash): 9768
+  Near-duplicate percentage   : 98.08%
+  Safe to combine             : False
+
+4. MASTER DATASET (After Deduplication)
+──────────────────────────────────────────────────
+  Total unique valid images   : 4968
+  Total classes               : 50
+  Min per class               : 89
+  Max per class               : 100
+  Mean per class              : 99.36
+  Std dev per class           : 1.6132
+  Duplicates removed          : 4991
+  Invalid images removed      : 0
+
+5. DATASET SPLIT (Leakage-Free)
+──────────────────────────────────────────────────
+  Random seed (SEED)          : 42
+  Split strategy              : Stratified, class-wise
+  Train ratio                 : 80%
+  Validation ratio            : 10%
+  Test ratio                  : 10%
+
+  Train set (original only)   : 3970
+  Validation set              : 499
+  Test set                    : 499
+  Total (original)            : 4968
+
+  Leakage verification (SHA-256):
+    Train ∩ Validation         : 0 images
+    Train ∩ Test               : 0 images
+    Validation ∩ Test          : 0 images
+    Leakage detected          : False
+
+6. AUGMENTATION PLAN (NOT YET EXECUTED)
+──────────────────────────────────────────────────
+  Target: 600 training images per class
+  Total target training images: 50 × 600 = 30,000
+  Augmentation applied ONLY to: train_original/
+  Validation and test: UNTOUCHED original images only
+
+  Augmentation parameters:
+    Rotation        : θ ~ Uniform(−15°, +15°)
+    Scaling         : s ~ Uniform(0.9, 1.1)
+    Gaussian noise  : σ = 10
+    Gaussian blur   : 3×3 kernel
+    Implementation  : OpenCV
+    Seed            : 42
+
+  Augmentation strategy:
+    If train count >= 600: no augmentation needed
+    If train count  < 600: generate until exactly 600
+    No byte-for-byte duplicate augmented images
+    Full augmentation provenance tracked in augmentation_manifest.csv
+
+7. VERIFICATION AGAINST PREVIOUS PAPER CLAIMS
+──────────────────────────────────────────────────
+  Metric                               Old Value     Actual    Match
+  ─────────────────────────────────── ────────── ────────── ────────
+  Images in Tulu-Dtatset-V2                 4979       4979      YES
+  Images in tulu-dataset                    4980       4980      YES
+  Combined total images                     9959       9959      YES
+  Number of classes                           50         50      YES
+  Target augmented train/class               600        600      YES
+  Target total augmented train             30000 30000 (after aug) NO ← REVIEW
+
+8. CLASS-WISE SPLIT COUNTS (for IEEE paper Table)
+──────────────────────────────────────────────────
+  Class            V2   Orig    Train    Val   Test    Total
+  ──────────── ────── ────── ──────── ────── ────── ────────
+  a                97      1       78     10     10       98
+  aa              100      0       80     10     10      100
+  ae              100      0       80     10     10      100
+  aee             100      0       80     10     10      100
+  aha             100      0       80     10     10      100
+  am               99      0       79     10     10       99
+  ba              100      0       80     10     10      100
+  bha              99      0       79     10     10       99
+  cha             100      0       80     10     10      100
+  chha            100      0       80     10     10      100
+  da               99      0       79     10     10       99
+  dda             100      0       80     10     10      100
+  dha             100      0       80     10     10      100
+  dhha            100      0       80     10     10      100
+  e               100      0       80     10     10      100
+  ee              100      0       80     10     10      100
+  ga              100      0       80     10     10      100
+  gha             100      0       80     10     10      100
+  ha               99      0       79     10     10       99
+  i               100      0       80     10     10      100
+  ja               99      0       79     10     10       99
+  jha             100      0       80     10     10      100
+  ka              100      0       80     10     10      100
+  kha              99      0       79     10     10       99
+  la               99      0       79     10     10       99
+  lla             100      0       80     10     10      100
+  ma              100      0       80     10     10      100
+  na              100      0       80     10     10      100
+  nna             100      0       80     10     10      100
+  nya              98      0       78     10     10       98
+  nza             100      0       80     10     10      100
+  o                99      0       79     10     10       99
+  oo               99      0       79     10     10       99
+  ou               99      0       79     10     10       99
+  pa              100      0       80     10     10      100
+  pha              99      0       79     10     10       99
+  ra               99      0       79     10     10       99
+  ru              100      0       80     10     10      100
+  ruu             100      0       80     10     10      100
+  sa               99      0       79     10     10       99
+  sha              89      0       71      9      9       89
+  shha            100      0       80     10     10      100
+  ta               99      0       79     10     10       99
+  tha             100      0       80     10     10      100
+  thha            100      0       80     10     10      100
+  tta              99      0       79     10     10       99
+  u               100      0       80     10     10      100
+  uu              100      0       80     10     10      100
+  va               98      0       78     10     10       98
+  ya              100      0       80     10     10      100
+  ──────────── ────── ────── ──────── ────── ────── ────────
+  TOTAL                          3970    499    499     4968
+
+9. CNN ARCHITECTURE REFERENCE
+──────────────────────────────────────────────────
+  Input         : 64 × 64 × 3
+  Conv2D Block 1: 32 filters, 3×3, ReLU, BN, MaxPool 2×2
+  Conv2D Block 2: 64 filters, 3×3, ReLU, BN, MaxPool 2×2
+  Conv2D Block 3: 128 filters, 3×3, ReLU, BN, MaxPool 2×2
+  Conv2D Block 4: 256 filters, 3×3, ReLU, BN, MaxPool 2×2
+  Dense         : 512 units, ReLU, BN, Dropout=0.5
+  Output        : 50 units, Softmax
+
+  Training Configuration:
+    Optimizer     : Adam
+    Learning rate : 0.0003
+    Batch size    : 32
+    Max epochs    : 60
+    ReduceLROnPlateau: patience=3, factor=0.3
+    Random seed   : 42
+
+======================================================================
+  END OF REPORT
+======================================================================

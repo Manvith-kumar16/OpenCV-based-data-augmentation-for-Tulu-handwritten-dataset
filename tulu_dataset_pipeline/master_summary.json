@@ -1,0 +1,10 @@
+{
+  "total_master_images": 4968,
+  "total_classes": 50,
+  "min_per_class": 89,
+  "max_per_class": 100,
+  "mean_per_class": 99.36,
+  "std_per_class": 1.6132107672563547,
+  "total_duplicates_removed": 4991,
+  "total_invalid": 0
+}

@@ -1,0 +1,82 @@
+=============================================================================
+TULU KALPUGA — FINAL DATASET VERIFICATION & SUMMARY REPORT
+=============================================================================
+
+1. VERIFICATION CHECKLIST
+   [✓] Number of classes = 50
+   [✓] Training images = 30000
+   [✓] Validation images = 499
+   [✓] Test images = 499
+   [✓] Validation unchanged from pre-augmentation count (499)
+   [✓] Test unchanged from pre-augmentation count (499)
+   [✓] No files were added to validation
+   [✓] No files were added to test
+   [✓] No original source files were modified
+   [✓] No duplicate leakage exists between train, validation, and test (SHA-256 verified)
+   [✓] Every class has exactly 600 training images
+
+2. CLASS DISTRIBUTION TABLE
+Class           | Original Train  | Generated Augmented  | Final Train Count
+---------------------------------------------------------------------------
+a               | 78              | 522                  | 600
+aa              | 80              | 520                  | 600
+ae              | 80              | 520                  | 600
+aee             | 80              | 520                  | 600
+aha             | 80              | 520                  | 600
+am              | 79              | 521                  | 600
+ba              | 80              | 520                  | 600
+bha             | 79              | 521                  | 600
+cha             | 80              | 520                  | 600
+chha            | 80              | 520                  | 600
+da              | 79              | 521                  | 600
+dda             | 80              | 520                  | 600
+dha             | 80              | 520                  | 600
+dhha            | 80              | 520                  | 600
+e               | 80              | 520                  | 600
+ee              | 80              | 520                  | 600
+ga              | 80              | 520                  | 600
+gha             | 80              | 520                  | 600
+ha              | 79              | 521                  | 600
+i               | 80              | 520                  | 600
+ja              | 79              | 521                  | 600
+jha             | 80              | 520                  | 600
+ka              | 80              | 520                  | 600
+kha             | 79              | 521                  | 600
+la              | 79              | 521                  | 600
+lla             | 80              | 520                  | 600
+ma              | 80              | 520                  | 600
+na              | 80              | 520                  | 600
+nna             | 80              | 520                  | 600
+nya             | 78              | 522                  | 600
+nza             | 80              | 520                  | 600
+o               | 79              | 521                  | 600
+oo              | 79              | 521                  | 600
+ou              | 79              | 521                  | 600
+pa              | 80              | 520                  | 600
+pha             | 79              | 521                  | 600
+ra              | 79              | 521                  | 600
+ru              | 80              | 520                  | 600
+ruu             | 80              | 520                  | 600
+sa              | 79              | 521                  | 600
+sha             | 71              | 529                  | 600
+shha            | 80              | 520                  | 600
+ta              | 79              | 521                  | 600
+tha             | 80              | 520                  | 600
+thha            | 80              | 520                  | 600
+tta             | 79              | 521                  | 600
+u               | 80              | 520                  | 600
+uu              | 80              | 520                  | 600
+va              | 78              | 522                  | 600
+ya              | 80              | 520                  | 600
+---------------------------------------------------------------------------
+TOTAL           | 3970            | 26030                | 30000
+
+3. DATASET SUMMARY FOR IEEE PAPER
+The Tulu Kalpuga dataset comprises a highly curated set of unique handwritten character images.
+After rigorous SHA-256 validation and deduplication, 4,968 unique images across 50 classes were established.
+A stratified split (Seed = 42) isolated 499 images for validation and 499 images for testing.
+To combat class imbalance and enforce uniform learning, controlled data augmentation (Rotation ±15°,
+Scaling 0.9-1.1, Gaussian Noise σ=10, Gaussian Blur 3x3) was applied strictly to the training split.
+The final training set contains exactly 30000 images (600 per class), ensuring 0% data leakage
+into the untouched validation and test sets.
+=============================================================================

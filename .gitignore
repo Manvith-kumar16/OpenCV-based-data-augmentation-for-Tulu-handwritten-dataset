@@ -1,0 +1,5 @@
+# Ignore large datasets and zips
+dataset_split.zip
+dataset_split/
+Tulu-Dtatset-V2/
+tulu-dataset/

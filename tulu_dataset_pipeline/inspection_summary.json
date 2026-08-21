@@ -1,0 +1,1638 @@
+{
+  "v2": {
+    "dataset_name": "Tulu-Dtatset-V2",
+    "dataset_path": "/home/manvith/Desktop/Projects/Tulu Dataset/Tulu-Dtatset-V2",
+    "num_classes": 50,
+    "class_names": [
+      "a",
+      "aa",
+      "ae",
+      "aee",
+      "aha",
+      "am",
+      "ba",
+      "bha",
+      "cha",
+      "chha",
+      "da",
+      "dda",
+      "dha",
+      "dhha",
+      "e",
+      "ee",
+      "ga",
+      "gha",
+      "ha",
+      "i",
+      "ja",
+      "jha",
+      "ka",
+      "kha",
+      "la",
+      "lla",
+      "ma",
+      "na",
+      "nna",
+      "nya",
+      "nza",
+      "o",
+      "oo",
+      "ou",
+      "pa",
+      "pha",
+      "ra",
+      "ru",
+      "ruu",
+      "sa",
+      "sha",
+      "shha",
+      "ta",
+      "tha",
+      "thha",
+      "tta",
+      "u",
+      "uu",
+      "va",
+      "ya"
+    ],
+    "total_files": 4979,
+    "total_valid_images": 4979,
+    "total_unsupported": 0,
+    "total_corrupted": 0,
+    "min_per_class": 89,
+    "max_per_class": 100,
+    "mean_per_class": 99.58,
+    "std_per_class": 1.6011246047700347,
+    "per_class": {
+      "a": {
+        "total_files": 98,
+        "valid_count": 98,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 337,
+        "max_width": 369,
+        "min_height": 337,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "aa": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 346,
+        "max_width": 367,
+        "min_height": 335,
+        "max_height": 353,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ae": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 351,
+        "max_width": 372,
+        "min_height": 345,
+        "max_height": 358,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "aee": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 354,
+        "max_width": 369,
+        "min_height": 344,
+        "max_height": 358,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "aha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 354,
+        "max_width": 370,
+        "min_height": 338,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "am": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 355,
+        "max_width": 369,
+        "min_height": 336,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ba": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 349,
+        "max_width": 369,
+        "min_height": 341,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "bha": {
+        "total_files": 99,
+        "valid_count": 99,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 344,
+        "max_width": 366,
+        "min_height": 339,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "cha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 355,
+        "max_width": 365,
+        "min_height": 338,
+        "max_height": 349,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "chha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 351,
+        "max_width": 367,
+        "min_height": 337,
+        "max_height": 348,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "da": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 348,
+        "max_width": 370,
+        "min_height": 337,
+        "max_height": 356,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "dda": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 354,
+        "max_width": 370,
+        "min_height": 337,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "dha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 349,
+        "max_width": 367,
+        "min_height": 341,
+        "max_height": 351,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "dhha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 344,
+        "max_width": 366,
+        "min_height": 340,
+        "max_height": 349,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "e": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 349,
+        "max_width": 362,
+        "min_height": 337,
+        "max_height": 353,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ee": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 350,
+        "max_width": 367,
+        "min_height": 337,
+        "max_height": 351,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ga": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 349,
+        "max_width": 365,
+        "min_height": 338,
+        "max_height": 348,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "gha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 356,
+        "max_width": 365,
+        "min_height": 337,
+        "max_height": 347,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 344,
+        "max_width": 368,
+        "min_height": 324,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "i": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 353,
+        "max_width": 371,
+        "min_height": 341,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ja": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 354,
+        "max_width": 370,
+        "min_height": 336,
+        "max_height": 348,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "jha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 359,
+        "max_width": 368,
+        "min_height": 335,
+        "max_height": 349,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ka": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 355,
+        "max_width": 370,
+        "min_height": 337,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "kha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 354,
+        "max_width": 370,
+        "min_height": 332,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "la": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 345,
+        "max_width": 369,
+        "min_height": 326,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "lla": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 346,
+        "max_width": 368,
+        "min_height": 321,
+        "max_height": 345,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ma": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 341,
+        "max_width": 365,
+        "min_height": 339,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "na": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 353,
+        "max_width": 369,
+        "min_height": 338,
+        "max_height": 356,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "nna": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 357,
+        "max_width": 367,
+        "min_height": 337,
+        "max_height": 351,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "nya": {
+        "total_files": 98,
+        "valid_count": 98,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 358,
+        "max_width": 367,
+        "min_height": 337,
+        "max_height": 355,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "nza": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 358,
+        "max_width": 367,
+        "min_height": 335,
+        "max_height": 348,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "o": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 350,
+        "max_width": 371,
+        "min_height": 337,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "oo": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 345,
+        "max_width": 369,
+        "min_height": 332,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ou": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 351,
+        "max_width": 369,
+        "min_height": 332,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "pa": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 359,
+        "max_width": 367,
+        "min_height": 339,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "pha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 352,
+        "max_width": 369,
+        "min_height": 340,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ra": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 348,
+        "max_width": 369,
+        "min_height": 324,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ru": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 339,
+        "max_width": 367,
+        "min_height": 345,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ruu": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 347,
+        "max_width": 365,
+        "min_height": 346,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "sa": {
+        "total_files": 99,
+        "valid_count": 99,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 350,
+        "max_width": 368,
+        "min_height": 326,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "sha": {
+        "total_files": 89,
+        "valid_count": 89,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 340,
+        "max_width": 368,
+        "min_height": 323,
+        "max_height": 354,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "shha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 337,
+        "max_width": 367,
+        "min_height": 320,
+        "max_height": 355,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ta": {
+        "total_files": 99,
+        "valid_count": 99,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 353,
+        "max_width": 370,
+        "min_height": 336,
+        "max_height": 356,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "tha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 356,
+        "max_width": 369,
+        "min_height": 338,
+        "max_height": 356,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "thha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 353,
+        "max_width": 369,
+        "min_height": 337,
+        "max_height": 356,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "tta": {
+        "total_files": 99,
+        "valid_count": 99,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 351,
+        "max_width": 369,
+        "min_height": 335,
+        "max_height": 350,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "u": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 349,
+        "max_width": 369,
+        "min_height": 338,
+        "max_height": 352,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "uu": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 346,
+        "max_width": 371,
+        "min_height": 338,
+        "max_height": 355,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "va": {
+        "total_files": 98,
+        "valid_count": 98,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 348,
+        "max_width": 367,
+        "min_height": 322,
+        "max_height": 355,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ya": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 350,
+        "max_width": 370,
+        "min_height": 338,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      }
+    }
+  },
+  "orig": {
+    "dataset_name": "tulu-dataset",
+    "dataset_path": "/home/manvith/Desktop/Projects/Tulu Dataset/tulu-dataset",
+    "num_classes": 50,
+    "class_names": [
+      "a",
+      "aa",
+      "ae",
+      "aee",
+      "aha",
+      "am",
+      "ba",
+      "bha",
+      "cha",
+      "chha",
+      "da",
+      "dda",
+      "dha",
+      "dhha",
+      "e",
+      "ee",
+      "ga",
+      "gha",
+      "ha",
+      "i",
+      "ja",
+      "jha",
+      "ka",
+      "kha",
+      "la",
+      "lla",
+      "ma",
+      "na",
+      "nna",
+      "nya",
+      "nza",
+      "o",
+      "oo",
+      "ou",
+      "pa",
+      "pha",
+      "ra",
+      "ru",
+      "ruu",
+      "sa",
+      "sha",
+      "shha",
+      "ta",
+      "tha",
+      "thha",
+      "tta",
+      "u",
+      "uu",
+      "va",
+      "ya"
+    ],
+    "total_files": 4980,
+    "total_valid_images": 4980,
+    "total_unsupported": 0,
+    "total_corrupted": 0,
+    "min_per_class": 89,
+    "max_per_class": 100,
+    "mean_per_class": 99.6,
+    "std_per_class": 1.5874507866387546,
+    "per_class": {
+      "a": {
+        "total_files": 99,
+        "valid_count": 99,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 337,
+        "max_width": 369,
+        "min_height": 337,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "aa": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 346,
+        "max_width": 367,
+        "min_height": 335,
+        "max_height": 353,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ae": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 351,
+        "max_width": 372,
+        "min_height": 345,
+        "max_height": 358,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "aee": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 354,
+        "max_width": 369,
+        "min_height": 344,
+        "max_height": 358,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "aha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 354,
+        "max_width": 370,
+        "min_height": 338,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "am": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 355,
+        "max_width": 369,
+        "min_height": 336,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ba": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 349,
+        "max_width": 369,
+        "min_height": 341,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "bha": {
+        "total_files": 99,
+        "valid_count": 99,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 344,
+        "max_width": 366,
+        "min_height": 339,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "cha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 355,
+        "max_width": 365,
+        "min_height": 338,
+        "max_height": 349,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "chha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 351,
+        "max_width": 367,
+        "min_height": 337,
+        "max_height": 348,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "da": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 348,
+        "max_width": 370,
+        "min_height": 337,
+        "max_height": 356,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "dda": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 354,
+        "max_width": 370,
+        "min_height": 337,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "dha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 349,
+        "max_width": 367,
+        "min_height": 341,
+        "max_height": 351,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "dhha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 344,
+        "max_width": 366,
+        "min_height": 340,
+        "max_height": 349,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "e": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 349,
+        "max_width": 362,
+        "min_height": 337,
+        "max_height": 353,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ee": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 350,
+        "max_width": 367,
+        "min_height": 337,
+        "max_height": 351,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ga": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 349,
+        "max_width": 365,
+        "min_height": 338,
+        "max_height": 348,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "gha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 356,
+        "max_width": 365,
+        "min_height": 337,
+        "max_height": 347,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 344,
+        "max_width": 368,
+        "min_height": 324,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "i": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 353,
+        "max_width": 371,
+        "min_height": 341,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ja": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 354,
+        "max_width": 370,
+        "min_height": 336,
+        "max_height": 348,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "jha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 359,
+        "max_width": 368,
+        "min_height": 335,
+        "max_height": 349,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ka": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 355,
+        "max_width": 370,
+        "min_height": 337,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "kha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 354,
+        "max_width": 370,
+        "min_height": 332,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "la": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 345,
+        "max_width": 369,
+        "min_height": 326,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "lla": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 346,
+        "max_width": 368,
+        "min_height": 321,
+        "max_height": 345,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ma": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 341,
+        "max_width": 365,
+        "min_height": 339,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "na": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 353,
+        "max_width": 369,
+        "min_height": 338,
+        "max_height": 356,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "nna": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 357,
+        "max_width": 367,
+        "min_height": 337,
+        "max_height": 351,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "nya": {
+        "total_files": 98,
+        "valid_count": 98,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 358,
+        "max_width": 367,
+        "min_height": 337,
+        "max_height": 355,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "nza": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 358,
+        "max_width": 367,
+        "min_height": 335,
+        "max_height": 348,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "o": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 350,
+        "max_width": 371,
+        "min_height": 337,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "oo": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 345,
+        "max_width": 369,
+        "min_height": 332,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ou": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 351,
+        "max_width": 369,
+        "min_height": 332,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "pa": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 359,
+        "max_width": 367,
+        "min_height": 339,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "pha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 352,
+        "max_width": 369,
+        "min_height": 340,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ra": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 348,
+        "max_width": 369,
+        "min_height": 324,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ru": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 339,
+        "max_width": 367,
+        "min_height": 345,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ruu": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 347,
+        "max_width": 365,
+        "min_height": 346,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "sa": {
+        "total_files": 99,
+        "valid_count": 99,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 350,
+        "max_width": 368,
+        "min_height": 326,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "sha": {
+        "total_files": 89,
+        "valid_count": 89,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 340,
+        "max_width": 368,
+        "min_height": 323,
+        "max_height": 354,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "shha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 337,
+        "max_width": 367,
+        "min_height": 320,
+        "max_height": 355,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ta": {
+        "total_files": 99,
+        "valid_count": 99,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 353,
+        "max_width": 370,
+        "min_height": 336,
+        "max_height": 356,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "tha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 356,
+        "max_width": 369,
+        "min_height": 338,
+        "max_height": 356,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "thha": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 353,
+        "max_width": 369,
+        "min_height": 337,
+        "max_height": 356,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "tta": {
+        "total_files": 99,
+        "valid_count": 99,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 351,
+        "max_width": 369,
+        "min_height": 335,
+        "max_height": 350,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "u": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 349,
+        "max_width": 369,
+        "min_height": 338,
+        "max_height": 352,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "uu": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 346,
+        "max_width": 371,
+        "min_height": 338,
+        "max_height": 355,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "va": {
+        "total_files": 98,
+        "valid_count": 98,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 348,
+        "max_width": 367,
+        "min_height": 322,
+        "max_height": 355,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      },
+      "ya": {
+        "total_files": 100,
+        "valid_count": 100,
+        "unsupported": 0,
+        "corrupted": 0,
+        "min_width": 350,
+        "max_width": 370,
+        "min_height": 338,
+        "max_height": 357,
+        "image_modes": [
+          "RGBA"
+        ],
+        "unsupported_files": [],
+        "corrupted_files": []
+      }
+    }
+  },
+  "combined_valid": 9959,
+  "combined_classes": 50
+}
