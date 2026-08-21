@@ -6,6 +6,11 @@ A robust data pipeline for processing, deduplicating, augmenting, and splitting 
 
 This repository contains a comprehensive data engineering and augmentation pipeline specifically designed for handwritten characters in the Tulu script. It transforms raw image data into a machine-learning-ready dataset by ensuring data quality (removing duplicates), generating reproducible train/val/test splits, and enriching the dataset using robust computer vision augmentations via OpenCV.
 
+## 🔗 Dataset Links
+
+- **Google Drive Dataset:** [Download via Google Drive](https://drive.google.com/drive/folders/1WDJuyeMUXqHh7Fw-inAvbRf9wdfLXt-X?usp=drive_link)
+- **Kaggle Dataset:** [View on Kaggle](https://www.kaggle.com/datasets/midhun009/tulu-handwritten-dataset)
+
 ## 🛠️ Pipeline Architecture
 
 The pipeline is organized into a sequential set of 8 Python scripts within the `tulu_dataset_pipeline` directory:
